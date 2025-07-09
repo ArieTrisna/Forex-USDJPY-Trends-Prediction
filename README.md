@@ -19,6 +19,7 @@ This project is made to predict the trend of USDJPY pair forex whether the price
 
 # Deployment
 For this project I'm using Streamlit for app building with Python
+App: https://forex-usdjpy-trend-prediction.streamlit.app/
 
 # Guidance Source
 [Youtube](https://www.youtube.com/watch?v=1O_BenficgE&t=371s)
