@@ -7,14 +7,9 @@ from twelvedata import TDClient
 import os
 
 # ------------------ Data Pull and Feature Engineering --------------
-## --------- Credentials --------
-def configure():
-    load_dotenv()
-
 ## ----------- Data Pull ----------
 def data_get():
-    configure()
-    td = TDClient(apikey=os.getenv('api_key'))      # Initialize client - apikey parameter is requiered
+    td = TDClient(apikey=st.secrets['API_KEY'])      # Initialize client - apikey parameter is requiered
     ts = td.time_series(                            # Construct the necessary time series
         symbol="USD/JPY",
         interval="1day",
