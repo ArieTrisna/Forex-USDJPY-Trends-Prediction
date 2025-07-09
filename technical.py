@@ -1,20 +1,13 @@
 import streamlit as st
 from twelvedata import TDClient
-import os
-from dotenv import load_dotenv
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import ta
 
 # ------------------ Data Pull and Feature Engineering --------------
-## --------- Credentials --------
-def configure():
-    load_dotenv()
-
 ## ----------- Data Pull ----------
 def data_get():
-    configure()
-    td = TDClient(apikey=os.getenv('api_key'))      # Initialize client - apikey parameter is requiered
+    td = TDClient(apikey=st.secrets['API_KEY'])      # Initialize client - apikey parameter is requiered
     ts = td.time_series(                            # Construct the necessary time series
         symbol="USD/JPY",
         interval="1day",
