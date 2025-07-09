@@ -6,6 +6,5 @@ seaborn
 matplotlib
 joblib
 xgboost
-os
 ta
 dotenv
