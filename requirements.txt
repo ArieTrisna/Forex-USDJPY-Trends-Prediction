@@ -8,3 +8,4 @@ joblib
 xgboost
 ta
 dotenv
+twelvedata
