@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib 
 from sklearn.ensemble import GradientBoostingClassifier
-from dotenv import load_dotenv
 from twelvedata import TDClient
-import os
 
 # ------------------ Data Pull and Feature Engineering --------------
 ## ----------- Data Pull ----------
