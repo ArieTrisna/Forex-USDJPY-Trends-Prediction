@@ -1,0 +1,10 @@
+The Project Guidelines : https://www.youtube.com/watch?v=7dnBxHbVMV8 & https://www.youtube.com/watch?v=1O_BenficgE&t=371s 
+
+This project is made for Data Science Bootcamp Final Project
+The goal of this project is to understand the workflow of data science from data gathering until present the report or the outcome of the project
+
+Title: Forex Trend Prediction USDJPY Pair
+Dataset Source: Twelve Data
+
+Target:
+Identify the trend is it bullish (upward) or bearish (downward) and predict the price of the pair.
