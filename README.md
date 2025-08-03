@@ -2,7 +2,7 @@
 *A Machine Learning approach to predicting forex price movement using Python*
 
 ## 🚀 Project Overview  
-This project aims to **predict the price trend (up or down)** of the USD/JPY forex currency pair using a **classification model** built with Python and scikit-learn. It demonstrates the full data science pipeline — from data acquisition to deployment — and is designed to showcase skills in **data cleaning, feature engineering, machine learning, and app development**.
+This project aims to **predict the price trend (up or down)** of the USD/JPY forex currency pair using a **classification model** built with Python and scikit-learn. It demonstrates the full data science pipeline from data acquisition to deployment and is designed to showcase skills in **data cleaning, feature engineering, machine learning, and app development**.
 
 🔗 **Live Demo**: [Streamlit App](https://forex-usdjpy-trend-prediction.streamlit.app/)
 
